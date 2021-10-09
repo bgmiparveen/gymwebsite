@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parveen's Gym</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(bg.jpg);
+        font-size: 20px;
+        background-image: 100%vh;
+    }
+
+    .navbar {
+        display: block;
+        margin: 12px auto;
+        width: 50%;
+        margin: left 400px;
+        position: relative;
+        top: 35px;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 2px 3px;
+        margin: 2px 2px;
+        width: fit-content;
+
+    }
+
+    .navbar li a:hover {
+        color: turquoise;
+
+    }
+
+    .navbar li a:active {
+        color: rgb(51, 94, 89);
+        text-decoration: underline;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 35px;
+        font-size: 20;
+    }
+
+    .left img {
+        width: 74px;
+        border: 2px solid red;
+        filter: invert(100%);
+    }
+
+    .left {
+        color: white;
+        position: relative;
+        top: 56px;
+        display: inline-block;
+        margin: -89px 59px;
+        padding: 13px 15px;
+        width: 112px;
+    }
+
+    .button {
+        background-color: black;
+        color: white;
+        position: relative;
+        top: 48px;
+        right: 56px;
+        size: 2px;
+    }
+
+    .button:hover {
+        color: turquoise;
+        cursor: pointer;
+    }
+
+    .btn {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        margin: 0px 0px;
+        text-align: justify;
+        width: 119px;
+
+    }
+
+    .form {
+        color: white;
+        display: inline-block;
+        position: relative;
+        top: 150px;
+    }
+
+    .submit {
+        background-color: black;
+        color: white;
+    }
+
+    .form1 {
+        margin-left: 12px;
+        position: relative;
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+
+                <ul>
+                    <li><a href="">home </a> </li>
+                    <li><a href="">category</a> </li>
+                    <li><a href="">contact us</a> </li>
+                    <li><a href="">about</a> </li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="left">
+            <img src="logo.png" alt="">
+            <h3 class="heading"> p-fitness</h3>
+        </div>
+        <div class="btn">
+            <button class="button">Sign up</button>
+        </div>
+    </header>
+    <div class="form">
+
+        <form action="noaction.php">
+            <label for=""></label>
+            <label for="second name"></label>
+            <label for="this"></label>
+            <label for="first name"></label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First name: &nbsp; &nbsp; &nbsp; &nbsp; <input class="form1"
+                type="text" name="first name" id=""><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; second name: &nbsp; &nbsp; <input class="form1" type="text"
+                name="second name"><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; <input class="form1" type="number" name="this" id=""><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input class="form1" type="email" name="this" id=""><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gender: Male <input type="radio" name="my gender" id=""> Female
+            <input class="form1" type="radio" name="my gender" id=""><br><br>
+          <!-- <div class="date">
+
+              date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="date" name="date" id="">
+          </div> -->
+            <div>
+                &nbsp; &nbsp; &nbsp; &nbsp; <input class="form1" type="button" value="Submit Now">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
